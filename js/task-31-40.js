@@ -76,3 +76,16 @@
 // console.log(moveZeros([false,1,0,1,2,0,1,3,"a"]))
 
 /////////////////////////////////////////////////////////////////
+
+// function toDNA(dna) {
+//   // return dna.split("").map(e => e === "A" ? "T" : e === "T" ? "A" : e === "G" ? "C" : "G").join("")
+//   // return dna.replace(/A/g, 'T').replace(/T/g, 'A').replace(/C/g, 'G').replace(/G/g, 'C')
+  
+//   //or best
+//   const pairs = { A: "T", T: "A", G: "C", C: "G" }
+//   return dna.replace(/./g, e => pairs[e])
+// }
+
+// console.log(toDNA("ATTGC"));
+
+////////////////////////////////////////////////////////////
